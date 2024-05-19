@@ -8,7 +8,7 @@ export const send_reminder_function = async (events: any[]) => {
       const token = event.context.secrets.service_account_token;
       const devrevSDK = client.setup({ endpoint, token });
 
-      // Extract necessary details from the event payload or context
+      // Extract necessary details from the event payload 
       const { workItemId, userId } = event.payload;
 
       // Create the reminder message
@@ -18,10 +18,10 @@ export const send_reminder_function = async (events: any[]) => {
       const requestBody = {
         workItemId,
         userId,
-        comment: reminderMessage, // Include the reminder message as a comment
+        comment: reminderMessage, 
       };
 
-      // Send the reminder using the DevRev SDK or external service
+      // Sending the reminder using the DevRev SDK or external service
       // For example, using axios
       const response = await axios.post(
         `${endpoint}/works.update`,
