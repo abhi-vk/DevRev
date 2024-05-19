@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@devrev/typescript-sdk": "^1.1.25",
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "payload": {
+    "id": "don:integration:dvrv-us-1:devo/XXXXXX:webhook/ovtfa4mg:webhook_event/uzX6Pqe9tQc",
+    "timestamp": "2023-08-03T06:03:21.932268Z",
+    "type": "work_created",
+    "unique_key": "XXXX=",
+    "webhook_id": "don:integration:dvrv-us-1:devo/XXXXXX:webhook/ovtfa4mg",
+    "work_created": {
+      "work": {
+        "id": "don:core:dvrv-us-1:devo/XXXXXX:issue/9",
+        "title": "Internal Associates Showing up as External Customers",
+        "owned_by": [
+          {
+            "id": "don:identity:dvrv-us-1:devo/XXXXXX:devu/2588",
+            "email": "jane.doe@gmail.com",
+            "display_handle": "jane-doe"
+          }
+        ],
+        "created_by": {
+          "id": "don:identity:dvrv-us-1:devo/XXXXXX:devu/1046",
+          "display_handle": "john-doe"
+        }
+      }
+    }
+  },
+  "context": {
+    "dev_oid": "don:identity:dvrv-us-1:devo/XXXXXX",
+    "automation_id": "don:integration:dvrv-us-1:devo/XXXXXX:automation/d6776732-c90e-4dd0-aa21-3f7115dc965f",
+    "source_id": "don:integration:dvrv-us-1:devo/XXXXXX:automation/d6776732-c90e-4dd0-aa21-3f7115dc965f",
+    "snap_in_id": "don:integration:dvrv-us-1:devo/XXXXXX:snap_in/6525667a-7e10-4c13-bb21-a69f779fabcd",
+    "snap_in_version_id": "don:integration:dvrv-us-1:devo/XXXXXX:snap_in_package/401582f8-c516-4b74-9783-da592989e220:snap_in_version/20b7f15b-3f58-4806-b124-b86953b90bb1",
+    "service_account_id": "don:identity:dvrv-us-1:devo/XXXXXX:svcacc/10",
+    "secrets": {
+      "service_account_token": "XXXXXXXXXX"
+    }
+  },
+  "execution_metadata": {
+    "request_id": "",
+    "function_name": "function_1",
+    "event_type": "work_created",
+    "devrev_endpoint": "https://api.devrev.ai"
+  },
+  "input_data": {
+    "global_values": {},
+    "event_sources": {
+      "devrev-webhook": "don:integration:dvrv-us-1:devo/XXXXXX:event_source/62d7cea0-7529-42a2-949d-550e0c93ac6a"
+    },
+    "keyrings": null,
+    "resources": { "keyrings": {}, "tags": {} }
+  }
+}
