@@ -14,12 +14,12 @@ This repository contains a set of Snap-Ins designed to manage reminders within t
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/devrev-reminder-snap-ins.git
+   git clone https://github.com/abhi-vk/DevRev.git
    ```
 
 2. **Install Dependencies:**
    ```bash
-   cd devrev-reminder-snap-ins
+   cd devrev-snaps-typescript-template
    npm install
    ```
 
